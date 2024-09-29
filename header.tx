@@ -1,0 +1,34 @@
+import React from "react";
+import compound from "../../../public/bronze_frame_with_bronze_crown.svg";
+import group184 from "../../../public/Group184.svg";
+import ranolph from "../../../public/ranophlogo.svg";
+import screeSize from "../../../public/GroupSize186.svg";
+import Hamburger from "../../../public/GroupHamburger185.svg";
+import Image from "next/image";
+
+const Header = () => {
+  return (
+    <nav>
+      <div>
+       
+        <Image
+          src={compound}
+          width={90}
+          height={90}
+          alt="nig"
+          className="absolute top-[8px] left-[55px] hidden sm:block"
+        />
+        <Image src={group184} alt="nig" className="absolute sm:top-[23.14px] sm:left-[229.15px] w-[100px] sm:w-auto left-1 top-1 "></Image>
+        <Image src={ranolph} alt="nig" className="absolute sm:top-[-17px] sm:left-[640px] w-[100px] sm:w-auto left-1 top-1 "></Image>
+        <Image src={screeSize} alt="nig" className="absolute sm:top-[23px] sm:left-[1330px] w-[100px] sm:w-auto left-1 top-1 "></Image>
+        <Image src={Hamburger} alt="nig" className="absolute sm:top-[23px] sm:left-[1430px] w-[100px] sm:w-auto left-1 top-1 "></Image>
+       
+
+
+
+      </div>
+    </nav>
+  );
+};
+
+export default Header;

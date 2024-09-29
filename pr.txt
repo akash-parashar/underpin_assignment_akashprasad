@@ -1,0 +1,32 @@
+import React from 'react'
+import compound from "../../../public/bronze_frame_with_bronze_crown.svg"
+import chip from "../../../public/chip.svg"
+import group184 from "../../../public/group184.png"
+import text from "../../../public/text.png"
+import Image from 'next/image'
+import plusCircle from "../../../public/PlusCircle.svg"
+
+
+const Header = () => {
+  return (
+ 
+    <nav>
+        <div>
+          <div className='left-part w-[30%] bg-red-400 '>
+            <Image src={compound} alt='bronze frame' className='top-[8px] left-[110px] absolute  '> 
+            </Image>
+            <Image src={chip} alt='bronze frame' className='top-[23.15px] left-[229px]  absolute z-10'> 
+            </Image>
+
+          </div>
+            <Image src={group184} width={162} height={35} alt='bronze frame' className='top-[35.63px] left-[262px] absolute'> 
+            </Image>
+            <Image src={plusCircle}  alt='number' height={47} className='absolute top-[31px] left-[407px]'>
+              </Image>
+        </div>
+    </nav>
+  )
+}
+
+export default Header
+
