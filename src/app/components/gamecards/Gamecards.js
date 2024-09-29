@@ -19,15 +19,15 @@ export default function Gamecards() {
             </div>
           ))}
         </div>
-        <div className="hidden sm:flex overflow-x-auto space-x-4 p-5 snap-x snap-mandatory scrollbar-hide">
+        <div className="sm:w-auto sm:h-auto flex overflow-x-auto sm:space-x-4 sm:p-5 snap-x snap-mandatory scrollbar-hide sm:mb-0 mt-1">
           {imageArray.map((src, index) => (
             <div key={index} className="flex-shrink-0 snap-center">
-              <Image
+             <Image
                 src={src}
                 alt={`Image ${index}`}
                 width={300}
-                height={400}
-                loading={index > 0 ? "lazy" : "eager"} 
+                height={100}
+                className="w-40 sm:w-[300px] "
               />
             </div>
           ))}

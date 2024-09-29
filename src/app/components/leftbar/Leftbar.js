@@ -24,11 +24,11 @@ const Leftbar = () => {
         className="block sm:hidden lg:w-[160px] md:w-[160px] sm:w-[160px] lg:h-[500px] md:h-[500px] sm:h-[440px] w-[100px]  h-[300px] "
         alt="sidebar"
       ></Image>
-      <Image
+      {/* <Image
         src={monkey}
         className="block sm:hidden lg:w-[160px] md:w-[160px] sm:w-[160px] lg:h-[500px] md:h-[500px] sm:h-[440px] w-[100px]  h-[300px] "
         alt="sidebar"
-      ></Image>
+      ></Image> */}
     </div>
   );
 };
